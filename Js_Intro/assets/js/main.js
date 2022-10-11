@@ -6,6 +6,7 @@ do {
         alert(`Bu istifadeci artiq movcuddur`);
     } else {
         uName.push(toLowerName);
+        alert(`Username ugurla elave olundu`);
     }
     console.log(uName);
 } while (username != null);
